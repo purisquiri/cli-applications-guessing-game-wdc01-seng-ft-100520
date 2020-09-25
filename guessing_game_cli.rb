@@ -11,11 +11,11 @@ def run_guessing_game
   #prompt 
   input = gets.chomp
   if input == "exit"
-    p "Goodbye!"
+    puts "Goodbye!"
     elsif input != random_number
-      p "Sorry! The computer guessed #{random_number}."
+      puts "Sorry! The computer guessed #{random_number}."
       elsif input == random_number
-        p "You guessed the correct number!"
+        puts "You guessed the correct number!"
   
   end
   random_number
