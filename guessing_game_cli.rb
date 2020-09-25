@@ -17,4 +17,5 @@ def run_guessing_game
         p "You guessed the correct number!"
   
   end
+  random_number
 end
